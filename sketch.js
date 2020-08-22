@@ -10,12 +10,12 @@ var score=0;
 
 
 function preload(){
-  backImage=loadImage("jungle2.jpg");
-  player_running = loadAnimation("Monkey_01.png","Monkey_02.png","Monkey_03.png","Monkey_04.png","Monkey_05.png","Monkey_06.png","Monkey_07.png","Monkey_08.png","Monkey_09.png","Monkey_10.png");
+  backImage=loadImage("jungle[1].png");
+  player_running = loadAnimation("1.png","2.png","3.png","4.png","5.png","6.png","7.png","8.png","9.png","10.png");
   
   
 
-  bananaImage = loadImage("Banana.png");
+  bananaImage = loadImage("banana.png");
   obstacle_img = loadImage("stone.png"); 
   
 }
@@ -23,7 +23,7 @@ function preload(){
 function setup() {
   createCanvas(800,400);
   
-  backgr=createSprite(0,0,800,400);
+  backgr=createSprite(400,200,800,400);
   backgr.addImage(backImage);
   backgr.scale=1.5;
   backgr.x=backgr.width/2;
